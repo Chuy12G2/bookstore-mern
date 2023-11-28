@@ -2,6 +2,7 @@ import { configDotenv } from 'dotenv'
 import express from 'express'
 import mongoose from 'mongoose'
 import booksRouter from './routes/books.js'
+import cors from 'cors'
 
 configDotenv()
 
